@@ -1,0 +1,40 @@
+/*JRS Coding School 
+API Website
+Name: Luis Lozoya - 02/16/20*/
+body{
+    text-align: center;
+    padding: 50px 50px;
+    background-color: #F5F5F5;
+    background-image: url(/Img/Background.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#box{
+    background-color: #F5F5F5;
+    opacity: 90%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+div{
+    font-size: 25px;
+    color: black;
+    margin: 0 10px;
+}
+
+#title{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 40px;
+    text-underline-position: below;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.btn-primary{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    border-radius: 5px;
+}

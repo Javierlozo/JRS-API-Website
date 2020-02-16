@@ -1,0 +1,36 @@
+<!--JRS Coding School 
+API Website
+Name: Luis Lozoya - 02/16/20-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail time!</title>
+    <link rel="stylesheet" href="Web.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <script src="./Web.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="box">
+        <button class="btn-primary" onclick="getRequest('https://www.thecocktaildb.com/api/json/v1/1/random.php')">Get A Random Cocktail and Instructions</button>
+        <div id="title" class="name">Name of Cocktail:</div>
+            <div id="name"></div><br>
+        <div id="title" class="img">Image:</div>
+            <img id="image" src="" alt="Picture of Cocktails" width="400px">
+        <div id="title" class="category">Category:</div>
+            <div id="category"></div><br>
+        <div id="title" class="alcoholic">Alcoholic or not:</div>
+            <div id="alcoholic"></div><br>
+        <div id="title" class="glass">Glass of Serving:</div>
+            <div id="glass"></div><br>
+        <div id="title" class="ingridients">Ingridients:</div>
+            <div id="ingridients"></div><br>
+        <div id="title" class="instructions">Instructions:</div>
+            <div id="instructions"></div>
+    </div>
+</body>
+</html>
